@@ -9,9 +9,12 @@
     "db:build": "node ./db/init_db",
     "start:dev": "concurrently \"npm run build\" \"npm run client:dev\" \"npm run server:dev\"",
     "build": "react-scripts build",
-    "start": "node index.js",
+    "start": "node server.js",
     "test:unit": "jest"
   },
+  "engines": {
+    "node": "8.9.3"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
