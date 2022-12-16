@@ -9,7 +9,7 @@
     "db:build": "node ./db/init_db",
     "start:dev": "concurrently \"npm run build\" \"npm run client:dev\" \"npm run server:dev\"",
     "build": "react-scripts build",
-    "start": "node server.js",
+    "start": "node index.js",
     "test:unit": "jest"
   },
   "engines": {
