@@ -12,9 +12,6 @@
     "start": "node index.js",
     "test:unit": "jest"
   },
-  "engines": {
-    "node": "8.9.3"
-},
   "keywords": [],
   "author": "",
   "license": "ISC",
